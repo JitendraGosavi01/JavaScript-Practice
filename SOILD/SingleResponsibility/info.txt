@@ -1,0 +1,9 @@
+The Single Responsibility Principle (SRP) is a software design principle that states that a class or module should have only one reason to change. In other words, it should have only one responsibility.
+
+Here's an example of how to apply the SRP in JavaScript:
+
+Let's say you have a class called User that has the responsibility of handling user authentication and sending emails to users. This violates the SRP because the class has two responsibilities: authentication and email sending.
+
+To adhere to the SRP, you can separate these responsibilities into two separate classes:
+
+By separating the responsibilities of authentication and email sending into separate classes, the User class now has only one responsibility: to manage user data. This makes the code more modular and easier to maintain and test.
