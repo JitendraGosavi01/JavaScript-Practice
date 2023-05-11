@@ -1,0 +1,8 @@
+The Open/Closed Principle (OCP) is a software design principle that states 
+that software entities (classes, functions, etc.) 
+should be open for extension but closed for modification. 
+This means that you should be able to add new functionality to the 
+system without having to modify existing code.
+
+
+This approach allows you to add new shapes to the system without having to modify the Shape class or any existing shape classes, making the system more extensible and easier to maintain.
