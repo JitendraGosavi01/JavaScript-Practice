@@ -1,0 +1,50 @@
+body {
+  padding-right: 15px;
+  padding-left: 15px;
+  background: gray;
+}
+
+h1 {
+  padding: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  /* justify-content: space-around; */
+  align-items: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 10px;
+  border-style: double;
+  background: bisque;
+}
+
+p {
+  color: wheat;
+  font-family: fantasy;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-family: system-ui;
+  font-weight: bolder;
+}
+
+span {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
