@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: green;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+#dropdown-list {
+  font-size: x-large;
+  border-radius: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 19px;
+  font-family: monospace;
+  font-weight: bold;
+  color: green;
+  text-transform: uppercase;
+}
+
+ol > li {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: orange;
+  padding-top: 10px;
+}
